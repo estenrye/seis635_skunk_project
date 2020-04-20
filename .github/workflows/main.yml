@@ -27,6 +27,10 @@ jobs:
         java-package: jdk
         architecture: x64
     
+    - name: Set Permissions on scripts.
+      run: chmod u+x *.sh
+
+
     # Runs a single command using the runners shell
     - name: Build Source Classes
       run: ./build.sh
