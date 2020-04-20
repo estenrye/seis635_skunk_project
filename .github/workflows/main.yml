@@ -36,5 +36,5 @@ jobs:
       run: ./build.sh
 
     # Runs a set of commands using the runners shell
-    - name: Build Source Classes
+    - name: Run JUnit Tests
       run: ./run-tests.sh
